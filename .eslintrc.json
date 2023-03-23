@@ -10,7 +10,6 @@
     "prettier",
     "next",
     "plugin:jsx-a11y/recommended",
-    "plugin:sonarjs/recommended",
     "standard-react"
   ],
   "parser": "@typescript-eslint/parser",
@@ -23,7 +22,6 @@
   },
   "plugins": [
     "react",
-    "sonarjs",
     "@typescript-eslint",
     "simple-import-sort",
     "testing-library",
@@ -49,13 +47,13 @@
       }
     ],
     "import/no-anonymous-default-export": "off",
-    "react/function-component-definition": [
-      2,
-      {
-        "namedComponents": ["arrow-function"],
-        "unnamedComponents": ["arrow-function"]
-      }
-    ],
+    // "react/function-component-definition": [
+    //   2,
+    //   {
+    //     "namedComponents": ["arrow-function"],
+    //     "unnamedComponents": ["arrow-function"]
+    //   }
+    // ],
     "jsx-a11y/label-has-associated-control": [
       "error",
       {
